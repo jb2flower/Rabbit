@@ -146,7 +146,7 @@
                                 android:hint="000-0000-0000"
                                 android:ems="255"
                                 android:id="@+id/txtPhone"
-                                android:inputType="textPhonetic"
+                                android:inputType="phone"
                                 android:importantForAutofill="no" tools:targetApi="o"/>
                     </LinearLayout>
                 </LinearLayout>

@@ -1,0 +1,56 @@
+
+insert into user_db(userid,name,tel,addr) values ('201530231','ism','93098508','gunpo')
+
+
+CREATE TABlE user_db(
+	userid varchar(10) primary key,
+	name varchar(10),
+	tel varchar(20),
+	daar varchar(50)
+)DEFAULT CHARSET=utf8;
+
+사용자 정보: 이름 주소 전화번소 성별 비번 먹는약 이메일
+스마트 워치: 심박수 위치
+스프링 
+/////////////////////////////////////////
+jsp페이지 주소
+http://117.17.34.222:9090/siren/test
+/////////////////////////////////////////
+https://jayviii.tistory.com/21?category=996149
+간단한 마리아db 회원가입
+https://alpreah.tistory.com/80
+
+https://all-record.tistory.com/175
+
+https://wjheo.tistory.com/entry/%EC%8A%A4%ED%94%84%EB%A7%81MyBatisMySQL-%EC%97%B0%EB%8F%99-%EB%B0%8F-%ED%85%8C%EC%8A%A4%ED%8A%B8DAO-3%EB%8B%A8-%EA%B5%AC%EC%A1%B0%EB%A1%9C-%EA%B5%AC%ED%98%84
+
+
+id = ${user_db.userid }<br>
+		name = ${user_db.name}<br>
+		tel = ${user_db.tel }<br>
+		addr = ${user_db.addr }<br>
+		user_password = ${user_db.user_password }<br>
+		user_email = ${user_db.user_email }<br>
+		
+		https://all-record.tistory.com/176?category=733072
+		안드로이드와 아파치 연동
+		https://derveljunit.tistory.com/10 
+		http://blog.naver.com/PostView.nhn?blogId=rain483&logNo=220814139493
+안드로이드 
+https://m.blog.naver.com/PostView.nhn?blogId=cosmosjs&logNo=221208701289&proxyReferer=https%3A%2F%2Fwww.google.com%2F
+https://blog.yena.io/studynote/2017/12/12/Android-Kotlin-Volley.html
+
+https://snowflake-1117.github.io/2018-01-08/%EC%95%88%EB%93%9C%EB%A1%9C%EC%9D%B4%EB%93%9C-Volley%EB%A5%BC-%ED%86%B5%ED%95%9C-%EC%84%9C%EB%B2%84%ED%86%B5%EC%8B%A0%EA%B3%BC-GSON%EC%9D%84-%EC%82%AC%EC%9A%A9%ED%95%9C-JSON-%ED%8C%8C%EC%8B%B1%ED%95%98%EA%B8%B0
+
+https://gurumee92.tistory.com/71?category=755605
+
+file:///C:/Users/user/Downloads/25%EC%9E%A5%20-%20HTTP%20%ED%86%B5%EC%8B%A0.pdf
+
+http://esocwiki.blogspot.com/2018/01/html-html-android-html-parse-read-html.html
+
+스프링에서 json으로 데이터 보내기
+https://blog.hanumoka.net/2018/04/29/spring-20180429-spring-controller-return-json/
+
+https://altongmon.tistory.com/745
+https://webnautes.tistory.com/828
+http://blog.naver.com/PostView.nhn?blogId=cosmosjs&logNo=221455368269&categoryNo=87&parentCategoryNo=0

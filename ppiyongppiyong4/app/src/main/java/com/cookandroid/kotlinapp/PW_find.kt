@@ -16,7 +16,7 @@ class PW_find : AppCompatActivity() {
             startActivity(intent)
         }
 
-        button12.setOnClickListener {
+        btnPwSbmit.setOnClickListener {
             val intent = Intent(this, PW_change::class.java)
             startActivity(intent)
         }

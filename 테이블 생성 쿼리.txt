@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 db이름 siren
 
 아이디 : root
@@ -21,4 +22,29 @@ CREATE TABLE `user_db` (
 )
 COLLATE='utf8_general_ci'
 ENGINE=InnoDB
+=======
+db이름 siren
+
+아이디 : root
+비번 : 201530231
+포트번호 : 3306
+
+CREATE TABLE `user_db` (
+	`userid` VARCHAR(10) NOT NULL,
+	`name` VARCHAR(10) NOT NULL,
+	`tel` VARCHAR(20) NOT NULL,
+	`addr` VARCHAR(50) NOT NULL,
+	`user_password` VARCHAR(20) NOT NULL,
+	`user_email` VARCHAR(50) NOT NULL,
+	`medicament` VARCHAR(50) NULL DEFAULT NULL,
+	`blood_type` VARCHAR(10) NULL DEFAULT NULL,
+	`date_of_birth` VARCHAR(8) NULL DEFAULT NULL,
+	`user_weight` VARCHAR(5) NULL DEFAULT NULL,
+	`oft_hospital` VARCHAR(50) NULL DEFAULT NULL,
+	`disease_name` VARCHAR(30) NULL DEFAULT NULL,
+	PRIMARY KEY (`userid`)
+)
+COLLATE='utf8_general_ci'
+ENGINE=InnoDB
+>>>>>>> 3d7f0d00237b3cbfd5e754bbf7676b2b0da9e90c
 ;

@@ -3,8 +3,8 @@ package com.cookandroid.kotlinapp
 import android.content.Intent
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import kotlinx.android.synthetic.main.header.*
 import kotlinx.android.synthetic.main.join1.*
-import kotlinx.android.synthetic.main.join1.header_back_btn
 import kotlinx.android.synthetic.main.join2.*
 
 class Join2 : AppCompatActivity() {

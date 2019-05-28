@@ -13,6 +13,8 @@
         </activity>
         <activity android:name=".Join1">
         </activity>
+        <activity android:name=".JoinOk">
+        </activity>
         <activity android:name=".Setting">
         </activity>
         <activity android:name=".Push_setting">

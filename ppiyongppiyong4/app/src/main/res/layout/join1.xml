@@ -37,12 +37,12 @@
                         app:layout_constraintTop_toTopOf="parent" android:id="@+id/joinList1">
                     <TextView
                             style="@style/join_list_tit"
-                            android:text="@string/id_ko"
+                            android:text="@string/id"
                             app:layout_constraintTop_toTopOf="parent"
                             app:layout_constraintStart_toStartOf="parent"/>
                     <EditText
                             style="@style/join_list_edit"
-                            android:hint="@string/id_ko"
+                            android:hint="@string/id"
                             android:ems="255"
                             android:id="@+id/txtId"
                             android:inputType="text"
@@ -58,19 +58,19 @@
                         android:id="@+id/joinList2" app:layout_constraintTop_toBottomOf="@id/joinList1">
                     <TextView
                             style="@style/join_list_tit"
-                            android:text="@string/pw_ko"
+                            android:text="@string/pw"
                             app:layout_constraintTop_toTopOf="parent"
                             app:layout_constraintStart_toStartOf="parent"/>
                     <EditText
                             style="@style/join_list_edit"
-                            android:hint="@string/pw_ko"
+                            android:hint="@string/pw"
                             android:ems="255"
                             android:id="@+id/txtPw"
                             android:inputType="textPassword"
                             android:importantForAutofill="no" tools:targetApi="o"/>
                     <EditText
                             style="@style/join_list_edit"
-                            android:hint="@string/pw_ko"
+                            android:hint="@string/pw"
                             android:ems="255"
                             android:id="@+id/txtPwChk"
                             android:inputType="textPassword"
@@ -87,12 +87,12 @@
                         android:id="@+id/joinList3">
                     <TextView
                             style="@style/join_list_tit"
-                            android:text="@string/name_ko"
+                            android:text="@string/name"
                             app:layout_constraintTop_toTopOf="parent"
                             app:layout_constraintStart_toStartOf="parent"/>
                     <EditText
                             style="@style/join_list_edit"
-                            android:hint="@string/name_ko"
+                            android:hint="@string/name"
                             android:ems="255"
                             android:id="@+id/txtName"
                             android:inputType="text"
@@ -108,7 +108,7 @@
                         android:id="@+id/joinList4" app:layout_constraintTop_toBottomOf="@+id/joinList3">
                     <TextView
                             style="@style/join_list_tit"
-                            android:text="@string/email_ko"
+                            android:text="@string/email"
                             app:layout_constraintTop_toTopOf="parent"
                             app:layout_constraintStart_toStartOf="parent"/>
                     <LinearLayout
@@ -117,7 +117,7 @@
                             android:layout_height="match_parent">
                         <EditText
                                 style="@style/join_list_edit"
-                                android:hint="xxxx@xxxx.xxx"
+                                android:hint="@string/email_exam"
                                 android:ems="255"
                                 android:id="@+id/txtEmail"
                                 android:inputType="textEmailAddress"
@@ -134,7 +134,7 @@
                         android:id="@+id/joinList5" app:layout_constraintTop_toBottomOf="@+id/joinList4">
                     <TextView
                             style="@style/join_list_tit"
-                            android:text="@string/phone_ko"
+                            android:text="@string/phone"
                             app:layout_constraintTop_toTopOf="parent"
                             app:layout_constraintStart_toStartOf="parent"/>
                     <LinearLayout
@@ -143,7 +143,7 @@
                             android:layout_height="match_parent">
                         <EditText
                                 style="@style/join_list_edit"
-                                android:hint="000-0000-0000"
+                                android:hint="@string/phone_exam"
                                 android:ems="255"
                                 android:id="@+id/txtPhone"
                                 android:inputType="phone"
@@ -160,7 +160,7 @@
                         android:id="@+id/joinList6" app:layout_constraintTop_toBottomOf="@+id/joinList5">
                     <TextView
                             style="@style/join_list_tit"
-                            android:text="@string/birth_ko"
+                            android:text="@string/birth"
                             app:layout_constraintTop_toTopOf="parent"
                             app:layout_constraintStart_toStartOf="parent"/>
                     <LinearLayout
@@ -169,16 +169,31 @@
                             android:layout_height="match_parent">
                         <EditText
                                 style="@style/join_list_edit"
-                                android:hint="생년월일"
+                                android:hint="@string/birth"
                                 android:ems="20"
                                 android:id="@+id/txtBirth"
                                 android:inputType="date"
                                 android:importantForAutofill="no" tools:targetApi="o"/>
                     </LinearLayout>
                 </LinearLayout>
+                <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:layout_constraintStart_toStartOf="parent"
+                        style="@style/join_list"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        android:id="@+id/joinList7" app:layout_constraintTop_toBottomOf="@+id/joinList6">
+                    <CheckBox android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/term_txt1" android:textColor="@color/colorSub"/>
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/term_txt2"/>
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/term_txt3" android:textColor="@color/colorSub" />
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/term_txt3"/>
+                </LinearLayout>
             </android.support.constraint.ConstraintLayout>
+
             <Button
-                    android:text="@string/join_title"
+                    android:text="@string/join"
                     style="@style/bottom_btn"
                     android:background="@color/colorMain"
                     android:layout_marginTop="20dp"

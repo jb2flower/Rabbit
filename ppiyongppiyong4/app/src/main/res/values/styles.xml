@@ -94,6 +94,14 @@
         <item name="android:background">@color/colorMain</item>
         <item name="android:layout_marginTop">20dp</item>
     </style>
+    <style name="basic_btn">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:textSize">18dp</item>
+        <item name="android:background">@color/colorMain</item>
+        <item name="android:layout_marginTop">10dp</item>
+    </style>
     <style name="small_btn">
         <item name="android:layout_width">60dp</item>
         <item name="android:layout_height">28dp</item>

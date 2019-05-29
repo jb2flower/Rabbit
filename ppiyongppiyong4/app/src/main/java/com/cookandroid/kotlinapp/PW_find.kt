@@ -11,7 +11,7 @@ class PW_find : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.pw_find)
-
+        txtHeaderTitle.text="아이디/비밀번호 찾기";
         btnIdFind.setOnClickListener {
             val intent = Intent(this,ID_find::class.java)
             startActivity(intent)

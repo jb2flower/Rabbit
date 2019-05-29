@@ -3,6 +3,7 @@ package com.cookandroid.kotlinapp
 import android.content.Intent
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import kotlinx.android.synthetic.main.header.*
 import kotlinx.android.synthetic.main.setting.*
 
 class Setting : AppCompatActivity() {
@@ -11,11 +12,10 @@ class Setting : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.setting)
 
-        imageButton1.setOnClickListener {
+        btnHeaderBack.setOnClickListener {
             val intent = Intent(this, Main::class.java)
             startActivity(intent)
         }
-
         imgbtn_user_re.setOnClickListener {
             val intent = Intent(this, Identification::class.java)
             startActivity(intent)

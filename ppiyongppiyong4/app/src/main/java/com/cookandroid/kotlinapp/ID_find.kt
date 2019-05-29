@@ -5,7 +5,6 @@ import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import kotlinx.android.synthetic.main.header.*
 import kotlinx.android.synthetic.main.id_find.*
-import kotlinx.android.synthetic.main.join1.*
 
 class ID_find : AppCompatActivity() {
 
@@ -13,6 +12,7 @@ class ID_find : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.id_find)
 
+        txtHeaderTitle.text="아이디/비밀번호 찾기";
         btnHeaderBack.setOnClickListener {
             val intent = Intent(this, Login::class.java)
             startActivity(intent)

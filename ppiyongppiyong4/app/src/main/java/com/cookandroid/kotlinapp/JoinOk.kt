@@ -10,6 +10,11 @@ class JoinOk : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.join_ok)
+        txtHeaderTitle.text="회원가입 완료";
+        btnHome.setOnClickListener {
+            val intent = Intent(this, Main::class.java)
+            startActivity(intent)
+        }
         btnHeaderBack.setOnClickListener {
             val intent = Intent(this, Main::class.java)
             startActivity(intent)

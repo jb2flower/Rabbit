@@ -3,6 +3,7 @@ package com.cookandroid.kotlinapp
 import android.content.Intent
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import kotlinx.android.synthetic.main.header.*
 import kotlinx.android.synthetic.main.pw_find.*
 
 class PW_find : AppCompatActivity() {
@@ -11,17 +12,17 @@ class PW_find : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.pw_find)
 
-        button11.setOnClickListener {
+        btnIdFind.setOnClickListener {
             val intent = Intent(this,ID_find::class.java)
             startActivity(intent)
         }
 
-        btnPwSbmit.setOnClickListener {
+        btnPwFind.setOnClickListener {
             val intent = Intent(this, PW_change::class.java)
             startActivity(intent)
         }
 
-        imgleftarrow.setOnClickListener {
+        btnHeaderBack.setOnClickListener {
             val intent = Intent(this, Login::class.java)
             startActivity(intent)
         }

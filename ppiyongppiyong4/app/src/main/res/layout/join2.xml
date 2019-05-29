@@ -44,7 +44,7 @@
                         app:layout_constraintStart_toStartOf="parent">
                     <TextView
                             style="@style/header_txtview"
-                            android:text="@string/join_title"
+                            android:text="@string/join"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent" android:layout_weight="1"
                             app:layout_constraintTop_toTopOf="parent" app:layout_constraintEnd_toEndOf="parent"
@@ -73,12 +73,12 @@
                         android:id="@+id/join_list2">
                     <TextView
                             style="@style/join_list_tit"
-                            android:text="@string/disease_ko"
+                            android:text="@string/disease"
                             app:layout_constraintTop_toTopOf="parent"
                             app:layout_constraintStart_toStartOf="parent"/>
                     <EditText
                             style="@style/join_list_edit"
-                            android:hint="@string/disease_ko"
+                            android:hint="@string/disease"
                             android:ems="255"
                             android:id="@+id/user_Disease"
                             android:inputType="text"
@@ -94,7 +94,7 @@
                         android:id="@+id/join_list3" app:layout_constraintTop_toBottomOf="@+id/join_list2">
                     <TextView
                             style="@style/join_list_tit"
-                            android:text="@string/selinfo_ko"
+                            android:text="@string/selinfo"
                             app:layout_constraintTop_toTopOf="parent"
                             app:layout_constraintStart_toStartOf="parent"/>
                     <LinearLayout
@@ -110,7 +110,7 @@
                                 android:inputType="textEmailAddress"
                                 android:importantForAutofill="no" tools:targetApi="o"/>
                         <CheckBox
-                                android:text="@string/view_ko"
+                                android:text="@string/view"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:id="@+id/user_Medicine_view"
@@ -130,7 +130,7 @@
                                 android:layout_width="300dp"
                                 android:importantForAutofill="no" tools:targetApi="o"/>
                         <CheckBox
-                                android:text="@string/view_ko"
+                                android:text="@string/view"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:id="@+id/user_Blood_view"
@@ -150,7 +150,7 @@
                                 android:layout_width="300dp"
                                 android:importantForAutofill="no" tools:targetApi="o"/>
                         <CheckBox
-                                android:text="@string/view_ko"
+                                android:text="@string/view"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:id="@+id/user_Weight_view"
@@ -170,7 +170,7 @@
                                 android:layout_width="300dp"
                                 android:importantForAutofill="no" tools:targetApi="o"/>
                         <CheckBox
-                                android:text="@string/view_ko"
+                                android:text="@string/view"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:id="@+id/user_Hospital_view"
@@ -206,9 +206,9 @@
                                     android:layout_gravity="right"
                                     android:layout_marginLeft="2dp"
                                     android:background="@color/colorMain"
-                                    android:text="@string/add_ko"/>
+                                    android:text="@string/add"/>
                             <Button android:layout_width="60dp" android:layout_height="28dp" android:textSize="12dp"
-                                    android:text="@string/del_ko"
+                                    android:text="@string/del"
                                     android:textColor="@color/colorWhite"
                                     android:background="@color/colorBlack"
                                     android:layout_gravity="right" android:layout_marginLeft="2dp"/>
@@ -251,7 +251,7 @@
                                 android:layout_width="90dp"
                                 android:importantForAutofill="no" tools:targetApi="o"/>
                         <CheckBox
-                                android:text="@string/view_ko"
+                                android:text="@string/view"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:id="@+id/contact_phone1_view"

@@ -15,7 +15,7 @@ class Join1 : AppCompatActivity() {
             val intent = Intent(this, Login::class.java)
             startActivity(intent)
         }
-        btnJoin.setOnClickListener {
+        btnSubmit.setOnClickListener {
             val intent = Intent(this, JoinOk::class.java)
             startActivity(intent)
         }

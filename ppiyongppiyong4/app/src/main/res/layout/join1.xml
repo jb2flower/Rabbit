@@ -197,7 +197,7 @@
                     style="@style/bottom_btn"
                     android:background="@color/colorMain"
                     android:layout_marginTop="20dp"
-                    android:id="@+id/btnJoin"
+                    android:id="@+id/btnSubmit"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/constraintLayout"/>

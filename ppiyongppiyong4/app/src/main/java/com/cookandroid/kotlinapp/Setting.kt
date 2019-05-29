@@ -20,6 +20,10 @@ class Setting : AppCompatActivity() {
             val intent = Intent(this, Identification::class.java)
             startActivity(intent)
         }
+        imgbtn_user_re2.setOnClickListener {
+            val intent = Intent(this, DetailModify::class.java)
+            startActivity(intent)
+        }
 
         imageButton4.setOnClickListener {
             val intent = Intent(this, Push_setting::class.java)

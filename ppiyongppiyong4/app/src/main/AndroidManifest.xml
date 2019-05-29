@@ -11,6 +11,8 @@
             android:theme="@style/AppTheme">
         <activity android:name=".MemberModify">
         </activity>
+        <activity android:name=".DetailModify">
+        </activity>
         <activity android:name=".Join">
         </activity>
         <activity android:name=".JoinOk">

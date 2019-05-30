@@ -38,4 +38,7 @@
     <string name="weight">체중</string>
     <string name="hospital">다니는 병원</string>
     <string name="contact">연락처</string>
+    <string name="setting_desc">설정</string>
+    <string name="now_pw">현재 비밀번호</string>
+    <string name="new_pw">새 비밀번호</string>
 </resources>

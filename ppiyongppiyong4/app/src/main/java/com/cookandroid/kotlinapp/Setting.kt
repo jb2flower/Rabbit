@@ -6,16 +6,11 @@ import android.os.Bundle
 import kotlinx.android.synthetic.main.header.*
 import kotlinx.android.synthetic.main.setting.*
 
-class Setting : AppCompatActivity() {
+class Setting : Common() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.setting)
-
-        btnHeaderBack.setOnClickListener {
-            val intent = Intent(this, Main::class.java)
-            startActivity(intent)
-        }
         imgbtn_user_re.setOnClickListener {
             val intent = Intent(this, Identification::class.java)
             startActivity(intent)
@@ -24,7 +19,10 @@ class Setting : AppCompatActivity() {
             val intent = Intent(this, DetailModify::class.java)
             startActivity(intent)
         }
-
+        imgbtn_user_re3.setOnClickListener {
+            val intent = Intent(this, PW_change::class.java)
+            startActivity(intent)
+        }
         imageButton4.setOnClickListener {
             val intent = Intent(this, Push_setting::class.java)
             startActivity(intent)

@@ -7,7 +7,7 @@ import kotlinx.android.synthetic.main.header.*
 import kotlinx.android.synthetic.main.identification.*
 import kotlinx.android.synthetic.main.setting.*
 
-class Identification : AppCompatActivity() {
+class Identification : Common() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

@@ -6,7 +6,7 @@ import android.os.Bundle
 import kotlinx.android.synthetic.main.header.*
 import kotlinx.android.synthetic.main.join.*
 
-class Join : AppCompatActivity() {
+class Join : Common() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

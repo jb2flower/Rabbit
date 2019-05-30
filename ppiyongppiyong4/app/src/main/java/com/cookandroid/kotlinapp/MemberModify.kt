@@ -6,7 +6,7 @@ import android.os.Bundle
 import kotlinx.android.synthetic.main.header.*
 import kotlinx.android.synthetic.main.member_modify.*
 
-class MemberModify : AppCompatActivity() {
+class MemberModify : Common() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

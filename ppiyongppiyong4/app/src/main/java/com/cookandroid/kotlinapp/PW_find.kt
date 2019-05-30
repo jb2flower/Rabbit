@@ -6,7 +6,7 @@ import android.os.Bundle
 import kotlinx.android.synthetic.main.header.*
 import kotlinx.android.synthetic.main.pw_find.*
 
-class PW_find : AppCompatActivity() {
+class PW_find : Common() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -19,11 +19,6 @@ class PW_find : AppCompatActivity() {
 
         btnPwFind.setOnClickListener {
             val intent = Intent(this, PW_change::class.java)
-            startActivity(intent)
-        }
-
-        btnHeaderBack.setOnClickListener {
-            val intent = Intent(this, Login::class.java)
             startActivity(intent)
         }
     }

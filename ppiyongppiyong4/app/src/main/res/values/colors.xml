@@ -10,4 +10,5 @@
     <color name="colorPrimaryDark2">#00574B</color>
     <color name="colorAccent2">#EF6B77</color>
     <color name="colorBlack">#0d0d0d</color>
+    <color name="alpha">#00000000</color>
 </resources>

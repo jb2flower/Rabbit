@@ -6,7 +6,7 @@ import android.os.Bundle
 import kotlinx.android.synthetic.main.header.*
 import kotlinx.android.synthetic.main.id_find.*
 
-class ID_find : AppCompatActivity() {
+class ID_find : Common() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

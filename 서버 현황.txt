@@ -1,3 +1,12 @@
+임시 서버
+http://117.17.34.84:8080/siren/
+/뒤에 json 
+      login
+      email
+      
+      post,get 방식으로 보내면 html body에 json형식의 데이터로 반환 ex) {"result":"x"}
+
+
 
 ssh  오류 연결이 않됨 (완료)
 44022

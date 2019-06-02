@@ -41,4 +41,6 @@
     <string name="setting_desc">설정</string>
     <string name="now_pw">현재 비밀번호</string>
     <string name="new_pw">새 비밀번호</string>
+    <string name="my_position">내 위치</string>
+    <string name="report">신고하기</string>
 </resources>

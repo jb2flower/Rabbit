@@ -3,6 +3,7 @@ package com.cookandroid.kotlinapp
 import android.content.BroadcastReceiver
 import android.content.Context
 import android.content.Intent
+import android.os.Build
 import android.util.Log
 import android.widget.Toast
 
@@ -11,7 +12,13 @@ class BootCompleteReceiver: BroadcastReceiver() {
         when{
             intent?.action==Intent.ACTION_BOOT_COMPLETED->{
                 Log.d("삐용삐용","부팅 완료^^*")
-                Toast.makeText(context,"삐용삐용 : 부팅완료",Toast.LENGTH_LONG).show()
+                context?.let {
+                    if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
+                        it.startForegroundService(Intent(context, LockScreenService::class.java))
+                    } else {
+                        it.startService(Intent(context, LockScreenService::class.java))
+                    }
+                }
             }
         }
     }

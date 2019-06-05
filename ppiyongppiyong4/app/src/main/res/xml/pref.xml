@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <SwitchPreference
+            android:defaultValue="false"
+            android:title="퀴즈 잠금화면 사용" android:key="useLockScreen"/>
+</PreferenceScreen>

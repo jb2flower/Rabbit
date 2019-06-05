@@ -184,6 +184,7 @@
                     android:layout_height="wrap_content" android:id="@+id/textView17"
                     android:layout_marginLeft="270dp"/>
         </LinearLayout>
+        
         <Button
                 android:text="로그아웃"
                 android:layout_width="match_parent"
